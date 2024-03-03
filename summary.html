@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>summary</title>
+    <link rel="stylesheet" href="Images/html-css.png">
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: rgb(244, 234, 255);
+        }
+        header{
+            text-align: center;
+            padding: 32px;
+            
+        }
+        h1{
+            font-size: 52px;
+            color: rgb(88, 49, 196);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+            
+        }
+        img{
+            width: 200px;
+            
+
+        }
+        main{
+            background-color: rgb(126, 71, 228);
+            color: white;
+            padding: 50px;
+            width: 700px;
+            margin: 32px auto;
+            border-radius: 10px;
+            
+        }
+        ul{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        li{
+            margin: 14px 0;
+            padding-left: 10px;
+            border-left: 4px solid transparent;
+        }
+        .select{
+            color: yellow;
+            border-left: 4px solid yellow;
+            
+        }
+        
+        button{
+            background-color: azure;
+            padding: 5px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        a{
+            text-decoration: none;
+        }
+        a:hover, a:active{
+                background-color: rgb(250, 201, 39);
+        }
+
+       .ack{
+        background-color: rgb(250, 201, 39);
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 9px;
+       }
+        footer{
+        text-align: center;
+        margin-bottom: 100px;
+        }
+        footer .ack:hover, .ack:active{
+            background-color: rgb(255, 186, 58);
+        }
+    </style>
+</head>
+<body>
+    <header>
+         <h1>HTML & CSS Basics Summary</h1>
+         <img src="Images/html-css.png" alt="">
+    </header>
+    <main>
+        <h2>HTML Summary</h2>
+        <p>HTML (HyperText Markup Language) is used to define our page content, structure and meaning. You <b>don't</b> use it for styling purposes. Use CSS for that instead!</p>
+        <ul>
+            <li class="select">HTML uses "elements" to describe (annotate) content</li>
+            <li> HTML elements typically have an opening tag, content and then a closing tag</li>
+            <li class="select">You can also have void (empty) elements like images</li>
+            <li class="select">You can also configure elements with attributes</li>
+            <li>There's a long list of available elements but you'll gain esxperience over time, no worries.</li>
+        </ul>
+        <p>Learn more about all available HTML elements on <button><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element">the MDN HTML element reference</a></button></p>
+    
+        <h2>CSS Summary</h2>
+        <p>CSS (Cascading Style Sheets) is used for styling your page content.</p>
+        <ul>
+            <li>Styles are assigned via property-value pairs</li>
+            <li>You can assign styles via the "style" attribute</li>
+            <li class="select">To avoid code dupication, you typically use global styles (e.g. via the "style" element) instead</li>
+            <li>Alternatively, you can work witg external stylesheet files which you "link" to</li>
+            <li class="select">When working with CSS, concepts like "inheritance", "specificity" and the "box model" should be understood.</li>
+        </ul>
+        <p>Learn more about all available CSS properties and values on <button><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">the MDN CSS property reference.</a></button></p>
+    </main>
+    <footer>
+        <p><a class="ack">Download PDF Summary</a></p>
+        <p>(c) Academind GmbH</p>
+    </footer>
+ </body>
+</html>
